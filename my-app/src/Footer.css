@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.footer {
+    padding: 0px 30px;
+    width: 100%;
+    background: #ecf2f7;
+    margin-top: 20px;
+}
+
+.footer .container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .about {
+    max-width: 30%;
+}
+
+.footer .container .about .detail p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #010f1c;
+}
+
+.footer .container .about .detail .icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer .container .about .detail .icon li {
+    margin-right: 10px;
+    list-style: none;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+.footer .container .about .detail .icon li:hover {
+    background: #0989ff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.footer .container .account {
+        padding: 40px 50px;
+}
+
+.footer .container .account h3 {
+    font-size: 32px;
+    color: #010f1c;
+}
+
+.footer .container .account ul {
+    margin-top: 10px;
+
+}
+
+.footer .container .account ul li {
+    margin-top: 5px;
+    color: #010f1c;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer .container .account ul li:hover {
+    color: #0989ff;
+}
+.footer .container .account h3 {
+    font-size: 25px;
+}
+.footer .container .account ul {
+    list-style: none;
+}
+
+.footer .container .page {
+    padding: 40px 50px;
+}
+
+.footer .container .page h3 {
+    font-size: 25px;
+    color: #010f1c;
+}
+
+.footer .container .page ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer .container .page ul li {
+    margin-top: 5px;
+    color: #010f1c;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer .container .page ul li:hover {
+    color: #0989ff;
+}
